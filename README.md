@@ -30,7 +30,7 @@ $ npm test
 
 ### Debugging
 
-- In VsCode, set a breakpoint on the line to debug.
+- In Visual Studio Code, set a breakpoint on the line to debug.
 
 - Go to the debugger section and press play.
 
