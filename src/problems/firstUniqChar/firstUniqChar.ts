@@ -1,8 +1,8 @@
 function firstUniqChar(s: string): number {
-  let dupes: any = {};
-  for (let i = 0; i < s.length; i++) {
+  let dupes: { [key: number]: number } = {};
+  for (let i:number = 0; i < s.length; i++) {
     if (!dupes[s[i]]) {
-      for (let j = 0; j < s.length; j++) {
+      for (let j:number = 0; j < s.length; j++) {
         if (i !== j && s[i] === s[j]) {
           dupes[s[i]] = true;
           break;
