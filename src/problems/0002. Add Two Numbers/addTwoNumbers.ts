@@ -5,20 +5,23 @@ function addTwoNumbers(
   let carry: number = 0;
   let head: ListNode = new ListNode(0);
   let current: ListNode = head;
-  while (true) {
-    if (l1 === null && l2 === null) {
-      if (carry) {
-        current.next = new ListNode(1);
-      }
-      return head.next;
-    }
+  while (l1 !== null || l2 !== null) {
     let sum = (l1?.val || 0) + (l2?.val || 0) + carry;
-    carry = Math.floor(sum / 10);
-    current.next = new ListNode(sum % 10);
+    if (sum > 9) {
+      carry = 1;
+      current.next = new ListNode(sum - 10);
+    } else {
+      carry = 0;
+      current.next = new ListNode(sum);
+    }
     current = current.next;
     if (l1 !== null) l1 = l1.next;
     if (l2 !== null) l2 = l2.next;
   }
+  if (carry) {
+    current.next = new ListNode(1);
+  }
+  return head.next;
 }
 
 // Test

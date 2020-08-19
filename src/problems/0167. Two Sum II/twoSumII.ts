@@ -1,31 +1,3 @@
-// Brtue force - slow
-// Time complexity: O(n2)
-// Space complexity: O(1)
-// function twoSum(nums: number[], target: number): number[] {
-//   for (let i: number = 0; i < nums.length; i++) {
-//     for (let j: number = i + 1; j < nums.length; j++) {
-//       if (nums[i] + nums[j] === target) {
-//         return [i, j];
-//       }
-//     }
-//   }
-//   return [];
-// }
-
-// Hashmap two pass - fast
-// Time complexity: O(n)
-// Space complexity: O(n)
-// function twoSum(nums: number[], target: number): number[] {
-//   var map: Map<number, number> = new Map(nums.map((num, i) => [num, i]));
-//   for (let i: number = 0; i < nums.length; i++) {
-//     let match: number = map.get(target - nums[i]) || -1;
-//     if (i !== match && match > -1) {
-//       return [i, match];
-//     }
-//   }
-//   return [];
-// }
-
 // Two pointers
 // Time complexity: O(n)
 // Space complexity: O(n)

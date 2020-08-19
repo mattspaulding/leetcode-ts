@@ -11,6 +11,7 @@
                 "-u", "bdd",
                 "--timeout", "999999",
                 "--colors", "--recursive",
+                "--reporter","spec",
                 "${workspaceFolder}/src/**/*.ts"
             ],
             "internalConsoleOptions": "openOnSessionStart"
