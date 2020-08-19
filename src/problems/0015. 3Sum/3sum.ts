@@ -29,11 +29,12 @@ import { expect } from "chai";
 
 describe("15. 3Sum", () => {
   it("can sum", () => {
-    expect(threeSum([-1, 0, 1, 2, -1, -4])).to.eql([
-      [
+    setTimeout(function () {
+      expect(threeSum([-1, 0, 1, 2, -1, -4])).to.eql([
         [-1, -1, 2],
         [-1, 0, 1],
-      ],
-    ]);
+      ]);
+  }, 5000);
+  
   });
 });

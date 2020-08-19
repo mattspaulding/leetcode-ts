@@ -1,14 +1,14 @@
 function firstUniqChar(s: string): number {
-  let dupes: { [key: number]: number } = {};
-  for (let i:number = 0; i < s.length; i++) {
-    if (!dupes[s[i]]) {
-      for (let j:number = 0; j < s.length; j++) {
+  let dupes: Map<string, boolean> = new Map<string, boolean>();
+  for (let i: number = 0; i < s.length; i++) {
+    if (!dupes.has(s[i])) {
+      for (let j: number = 0; j < s.length; j++) {
         if (i !== j && s[i] === s[j]) {
-          dupes[s[i]] = true;
+          dupes.set(s[i], true);
           break;
         }
       }
-      if (!dupes[s[i]]) {
+      if (!dupes.has(s[i])) {
         return i;
       }
     }
