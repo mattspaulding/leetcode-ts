@@ -18,4 +18,4 @@ Example:
 
 ## Result
 
-![Result](threeSum.png)
+![Result](3Sum.png)
