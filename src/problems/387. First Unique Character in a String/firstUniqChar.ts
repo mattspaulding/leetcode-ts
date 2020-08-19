@@ -19,7 +19,7 @@ function firstUniqChar(s: string): number {
 // Test
 import { expect } from "chai";
 
-describe("firstUniqChar", () => {
+describe("387. First Unique Character in a String", () => {
   it("can find first unique character", () => {
     expect(firstUniqChar("leetcode")).to.equal(0);
     expect(firstUniqChar("loveleetcode")).to.equal(2);

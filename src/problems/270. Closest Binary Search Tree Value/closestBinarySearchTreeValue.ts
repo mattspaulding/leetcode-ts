@@ -20,7 +20,7 @@ function closestValue(root: TreeNode | null, target: number): number {
 // Test
 import { expect } from "chai";
 
-describe("closestValue", () => {
+describe("270. Closest Binary Search Tree Value", () => {
   it("can find closest value", () => {
     let tree: BinarySearchTree = new BinarySearchTree([4, 2, 5, 1, 3]);
 

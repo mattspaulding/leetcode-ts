@@ -26,7 +26,7 @@ function mergeTwoLists(
 // Test
 import { expect } from "chai";
 
-describe("mergeTwoLists", () => {
+describe("21. Merge Two Sorted Lists", () => {
   it("can merge lists", () => {
     let l1 = new LinkedList([1, 2, 4]);
     let l2 = new LinkedList([1, 3, 4]);

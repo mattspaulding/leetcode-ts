@@ -29,24 +29,36 @@
 // Hashmap one pass - fast and clean
 // Time complexity: O(n)
 // Space complexity: O(n)
-function twoSum(nums: number[], target: number): number[] {
-  let map: Map<number, number> = new Map<number, number>();
-  for (let i: number = 0; i < nums.length; i++) {
-    const complement: number = target - nums[i];
-    if (map.has(complement)) {
-      return [map.get(complement) || 0, i];
-    }
-    map.set(nums[i], i);
-  }
-  return [];
+// function threeSum(nums: number[], target: number): number[] {
+//   let map: Map<number, number> = new Map<number, number>();
+//   for (let i: number = 0; i < nums.length; i++) {
+//     const complement: number = target - nums[i];
+//     if (map.has(complement)) {
+//       return [map.get(complement) || 0, i];
+//     }
+//     map.set(nums[i], i);
+//   }
+//   return [];
+// }
+
+function threeSum(nums: number[]): number[][] {
+  let map: Map<number, number> = new Map<number, number>(
+    nums.map((num: number, i: number) => [i, num])
+  );
+
+
+
+  return;
 }
 
 // Test
 import { expect } from "chai";
 
-describe("1. Two Sum", () => {
-  it("can sum", () => {
-    expect(twoSum([2, 7, 11, 15], 9)).to.eql([0, 1]);
-    expect(twoSum([1, 3, 4, 2], 6)).to.eql([2, 3]);
-  });
+describe("threeSum", () => {
+  // it("can sum", () => {
+  //   expect(threeSum([-1, 0, 1, 2, -1, -4])).to.eql([
+  //     [-1, 0, 1],
+  //     [-1, -1, 2],
+  //   ]);
+  // });
 });

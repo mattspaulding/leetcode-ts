@@ -129,7 +129,7 @@ function calculate(s: string): number {
 // Test
 import { expect } from "chai";
 
-describe("calculate", () => {
+describe("227. Basic Calculator II", () => {
   it("can add", () => {
     expect(calculate("1+2")).to.equal(3);
     expect(calculate("1+2+3")).to.equal(6);
