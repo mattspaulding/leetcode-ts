@@ -39,7 +39,7 @@ $ npm test
 
 ## Problems
 
-### 0001. [Two Sum](/src/problems/0001.%20Two%20Sum/README.md)
+### 0001. [Two Sum](/src/problems/0001.TwoSum)
 
 ---
 
