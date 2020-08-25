@@ -18,6 +18,13 @@
 
 - To run the code on your local environment
 
+### Tech
+
+- Node
+- Typescript
+- Mocha
+- Chai
+
 ### Setup
 
 > clone, install, and test
@@ -49,6 +56,7 @@ $ npm test
 - [0270. Closest Binary Search Tree Value](/src/problems/0270.ClosestBinarySearchTreeValue)
 - [0387. First Unique Character in a String](/src/problems/0387.FirstUniqueCharacterInAString)
 - [1560. Most Visited Sector in a Circular Track](/src/problems/1560.MostVisitedSectorInACircularTrack)
+- [1561. Maximum Number of Coins You Can Get](/src/problems/1561.MaximumNumberOfCoinsYouCanGet)
 
 ---
 
