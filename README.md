@@ -7,6 +7,7 @@
 ## Table of Contents
 
 - [Installation](#installation)
+- [Problems](#problems)
 - [Me](#me)
 - [Support](#support)
 - [License](#license)
@@ -33,6 +34,12 @@ $ npm test
 - In Visual Studio Code, set a breakpoint on the line to debug.
 
 - Go to the debugger section and press play.
+
+---
+
+## Problems
+
+### 0001. [Two Sum](/src/problems/0001.%20Two%20Sum/README.md)
 
 ---
 
