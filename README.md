@@ -39,7 +39,16 @@ $ npm test
 
 ## Problems
 
-### 0001. [Two Sum](/src/problems/0001.TwoSum)
+- [0001. Two Sum](/src/problems/0001.TwoSum)
+- [0002. Add Two Numbers](/src/problems/0002.AddTwoNumbers)
+- [0015. 3Sum](/src/problems/0015.3Sum)
+- [0021. Merge Two Sorted Lists](/src/problems/0021.MergeTwoSortedLists)
+- [0023. Merge k Sorted Lists](/src/problems/0023.MergeKSortedLists)
+- [0167. Two Sum II](/src/problems/0167.TwoSumII)
+- [0227. Basic Calculator II](/src/problems/0227.BasicCalculatorII)
+- [0270. Closest Binary Search Tree Value](/src/problems/0270.ClosestBinarySearchTreeValue)
+- [0387. First Unique Character in a String](/src/problems/0387.FirstUniqueCharacterInAString)
+- [1560. Most Visited Sector in a Circular Track](/src/problems/1560.MostVisitedSectorInACircularTrack)
 
 ---
 
