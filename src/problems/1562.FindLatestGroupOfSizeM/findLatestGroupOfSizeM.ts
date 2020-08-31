@@ -75,8 +75,8 @@ function findLatestStep(arr: number[], m: number): number {
 // Test
 import { expect } from "chai";
 
-describe("1. Two Sum", () => {
-  it("can sum", () => {
+describe("1562. Find Latest Group of Size M", () => {
+  it("find latest step", () => {
     expect(findLatestStep([3, 5, 1, 2, 4], 1)).to.eql(4);
     expect(findLatestStep([3, 1, 5, 4, 2], 2)).to.eql(-1);
     expect(findLatestStep([1], 1)).to.eql(1);
