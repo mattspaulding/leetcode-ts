@@ -57,6 +57,7 @@ $ npm test
 - [0387. First Unique Character in a String](/src/problems/0387.FirstUniqueCharacterInAString)
 - [1560. Most Visited Sector in a Circular Track](/src/problems/1560.MostVisitedSectorInACircularTrack)
 - [1561. Maximum Number of Coins You Can Get](/src/problems/1561.MaximumNumberOfCoinsYouCanGet)
+- [1562. Find Latest Group of Size M](/src/problems/1562.FindLatestGroupOfSizeM)
 
 ---
 

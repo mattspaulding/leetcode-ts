@@ -8,8 +8,6 @@ At each step i (assuming both the binary string and arr are 1-indexed) from 1 to
 
 Return the latest step at which there exists a group of ones of length exactly m. If no such group exists, return -1.
 
- 
-
 Example 1:
 
     Input: arr = [3,5,1,2,4], m = 1
@@ -43,7 +41,6 @@ Example 4:
 
     Input: arr = [2,1], m = 2
     Output: 2
- 
 
 Constraints:
 
