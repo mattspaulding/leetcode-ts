@@ -48,6 +48,7 @@ $ npm test
 
 - [0001. Two Sum](/src/problems/0001.TwoSum)
 - [0002. Add Two Numbers](/src/problems/0002.AddTwoNumbers)
+- [0008. String To Integer](/src/problems/0008.StringToInteger)
 - [0015. 3Sum](/src/problems/0015.3Sum)
 - [0021. Merge Two Sorted Lists](/src/problems/0021.MergeTwoSortedLists)
 - [0023. Merge k Sorted Lists](/src/problems/0023.MergeKSortedLists)
